@@ -23,7 +23,7 @@ function atualizarContador() {
         document.body.style.backgroundColor = "	#e30118";
     } else {
         // Lógica padrão (UNB)
-        const voltaUNB = moment("2026-03-16");
+        const voltaUNB = moment("2026-08-10");
         const diferencaDias = voltaUNB.diff(hoje, 'days');
         h1Dias.innerHTML = diferencaDias;
     }
